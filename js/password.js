@@ -2,7 +2,7 @@
 * @Author: Erick Lucena Palmeira Silva
 * @Date:   2015-04-09 01:16:02
 * @Last Modified by:   Erick Lucena Palmeira Silva
-* @Last Modified time: 2015-04-09 02:51:04
+* @Last Modified time: 2015-04-09 04:09:17
 */
 
 'use strict';
@@ -36,6 +36,13 @@ function Date (day, month, year)
     this.year = year;
 }
 
+function Date (date)
+{
+    this.day = date.split('-')[0];
+    this.month = date.split('-')[1];
+    this.year = date.split('-')[2];
+}
+
 function Address(line1, line2, city, state, postalCode, country) 
 {
     this.line1 = line1;
@@ -60,8 +67,9 @@ function check(user)
     
     totalMark += nameCheck(user);
     totalMark += birthdayCheck(user);
+    totalMark += educationNameCheck(user);
     
-    return totalMark/2;
+    return totalMark/3;
 }
 
 function nameCheck(user)
