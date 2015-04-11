@@ -121,7 +121,7 @@
                     </div>
                 </fieldset>
                 <div class="pure-controls">
-                    <input type="button" value="Submit" onclick="createUser()" class="pure-button pure-button-primary"/>
+                    <input type="button" value="Calculate" onclick="createUser()" class="pure-button pure-button-primary"/>
                 </div>
                 <fieldset>
                     <legend>Results</legend>
