@@ -2,7 +2,7 @@
 * @Author: Erick Lucena Palmeira Silva
 * @Date:   2015-04-09 01:16:02
 * @Last Modified by:   Erick Lucena Palmeira Silva
-* @Last Modified time: 2015-04-11 02:42:52
+* @Last Modified time: 2015-04-11 03:23:17
 */
 
 'use strict';
@@ -188,7 +188,7 @@ function addressCheck(user)
 
     if (numberOfInitials > 0)
     {
-        mark -= (numberOfInitials/initialsArray.length) * 10;
+        mark -= (numberOfInitials/initialsArray.length) * 2.5;
     }
 
     //State Checking
@@ -211,7 +211,7 @@ function addressCheck(user)
 
     if (numberOfInitials > 0)
     {
-        mark -= (numberOfInitials/initialsArray.length) * 10;
+        mark -= (numberOfInitials/initialsArray.length) * 2.5;
     }
 
     //Postal code Checking
@@ -246,10 +246,9 @@ function addressCheck(user)
 
     if (numberOfInitials > 0)
     {
-        mark -= (numberOfInitials/initialsArray.length) * 10;
+        mark -= (numberOfInitials/initialsArray.length) * 2.5;
     }
 
-    
     return mark<0?0:mark;
 }
 
