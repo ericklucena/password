@@ -33,25 +33,17 @@
 
     <div class="information pure-g-r">
         <div class="pure-u-1">
+        <!--
             <h1 class="section-head">
                 Information<br>
             </h1>
+        -->
             <form class="pure-form pure-form-aligned">
                 <fieldset>
                     <legend>Basic Information</legend>
                     <div class="pure-control-group">
-                        <label for="firstName">First Name</label>
-                        <input id="firstName" type="text" placeholder="First Name">
-                    </div>
-
-                    <div class="pure-control-group">
-                        <label for="middleName">Middle Name</label>
-                        <input id="middleName" type="text" placeholder="Middle Name">
-                    </div>
-
-                    <div class="pure-control-group">
-                        <label for="lastName">Last Name</label>
-                        <input id="lastName" type="text" placeholder="Last Name">
+                        <label for="fullname">Full Name</label>
+                        <input id="fullname" type="text" placeholder="Full Name">
                     </div>
 
                     <div class="pure-control-group">
@@ -97,13 +89,13 @@
                     </div>
 
                     <div class="pure-control-group">
-                        <label for="highSchoolStartDate">Start Date</label>
-                        <input id="highSchoolStartDate" type="date" placeholder="Start Date">
+                        <label for="highSchoolStartYear">Start Year</label>
+                        <input id="highSchoolStartYear" type="number" placeholder="Start Year">
                     </div>
 
                     <div class="pure-control-group">
-                        <label for="highSchoolEndDate">End Date</label>
-                        <input id="highSchoolEndDate" type="date" placeholder="End Date">
+                        <label for="highSchoolEndYear">End Year</label>
+                        <input id="highSchoolEndYear" type="number" placeholder="End Year">
                     </div>
 
                     <legend>Education - College</legend>
@@ -113,13 +105,13 @@
                     </div>
 
                     <div class="pure-control-group">
-                        <label for="collegeStartDate">Start Date</label>
-                        <input id="collegeStartDate" type="date" placeholder="Start Date">
+                        <label for="collegeStartYear">Start Year</label>
+                        <input id="collegeStartYear" type="number" placeholder="Start Year">
                     </div>
 
                     <div class="pure-control-group">
-                        <label for="collegeEndDate">End Date</label>
-                        <input id="collegeEndDate" type="date" placeholder="End Date">
+                        <label for="collegeEndYear">End Year</label>
+                        <input id="collegeEndYear" type="number" placeholder="End Year">
                     </div>
 
                     <legend>Password</legend>
@@ -142,12 +134,16 @@
                         <input id="birthdayScore" readonly="readonly" type="text" placeholder="Birthday Score">
                     </div>
                     <div class="pure-control-group">
+                        <label for="addressScore">Address Score</label>
+                        <input id="addressScore" readonly="readonly" type="text" placeholder="Address Score">
+                    </div>
+                    <div class="pure-control-group">
                         <label for="educationScore">Education Score</label>
                         <input id="educationScore" readonly="readonly" type="text" placeholder="Education Score">
                     </div>
                     <div class="pure-control-group">
                         <label for="totalScore">Total Score</label>
-                        <input id="totalScore" readonly="readonly" type="text" placeholder="TOtal Score">
+                        <input id="totalScore" readonly="readonly" type="text" placeholder="Total Score">
                     </div>
                 </fieldset>
             </form>
