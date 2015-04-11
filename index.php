@@ -153,7 +153,8 @@
 
 <div class="footer">
     <p class="l-box">
-        Code Haven - 2015
+        Code Haven - 2015<br/>
+        Erick Lucena Palmeira Silva | Jéssica Torres de Lima | Vanessa Carneiro Ferreira
     </p>
 </div>
 
